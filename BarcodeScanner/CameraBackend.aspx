@@ -16,7 +16,7 @@
         <h1>VotaChat Barcode Reader</h1>
     </header>
     <div id="camera">
-        <video id="stream" autoplay></video>
+        <video id="player" autoplay></video>
         <button id="capture" onclick="cameraClick(this);">Capture Image</button>
         <canvas id="canvas" hidden></canvas>
         <div>
